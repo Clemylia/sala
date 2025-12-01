@@ -32,9 +32,6 @@ Réponse:
 # --- 4. Configuration du Tokenizer (Arrêt) ---
 # Ceci est crucial pour empêcher le modèle de générer des boucles infinies ou des parasites.
 # Nous ajoutons les délimiteurs de dialogue utilisés dans le template.
-PARAMETER stop "Question:"
-PARAMETER stop "### reponse:"
-PARAMETER stop "Réponse:"
 PARAMETER stop "</s>"
 PARAMETER stop "</s"
 PARAMETER stop "<|endoftext|>"
